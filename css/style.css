@@ -1,0 +1,19 @@
+.countries {
+ display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:20px;
+ 
+}
+.countryCard{
+    border: 2px solid greenyellow;
+    border-radius: 15px;
+    background-color:dimgrey;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+.countryCard img
+{
+   width: 200px;
+   border-radius:10px;
+}
